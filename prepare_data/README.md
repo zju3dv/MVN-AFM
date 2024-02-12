@@ -40,4 +40,4 @@ While the program is running, it will display all the AFM images in sequence, an
 The ICP is an optimization algorithm that relies on initial values. These user point pairs provide initial poses for the ICP algorithm.
 There are many other methods to provide initial poses. For example, you can record the direction of the turntable of each AFM image to get an approximate pose.
 
-Finally, put the whole **output_folder** into **load/** and finish the data preparation. 
+Finally, put the whole **output_folder** into **load/** and finish the data preparation, or you can skip the above steps and download the demo [data](https://www.dropbox.com/scl/fi/05lnq57aft2yvkh2vcgr1/MOF.rar?rlkey=dqckw4tq8r0ocvirxxa6qhiit&dl=0) into **load/**.
