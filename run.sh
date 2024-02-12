@@ -1,4 +1,4 @@
-MVN_AFM_DIR="/home/eric/Code/Private/AFM_Publish_Final/MVN_AFM_Final"  # The folder of MVN-AFM
+MVN_AFM_DIR=""  # The folder of MVN-AFM
 DATA_NUM="9"      # the number of multi-view AFM images
 GPU_NUM="0"       # the GPU index
 DATA_NAME="MOF"
