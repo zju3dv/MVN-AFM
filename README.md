@@ -1,6 +1,6 @@
 # MVN-AFM: Multi-View Neural 3D Reconstruction of Micro-/Nanostructures with Atomic Force Microscopy
 
-## [Paper](https://arxiv.org/abs/2401.11541) | [Video]() 
+## [Paper](https://arxiv.org/abs/2401.11541) | [Test Data](https://www.dropbox.com/scl/fi/05lnq57aft2yvkh2vcgr1/MOF.rar?rlkey=dqckw4tq8r0ocvirxxa6qhiit&dl=0)
 
 
 
@@ -26,8 +26,15 @@ We tested our method on a commercial AFM, [Bruker Icon](https://www.bruker.com/e
 
 These two animations briefly demonstrate the conventional AFM scanning and the multi-view AFM scanning process.
 <p align="center">
-<img src='imgs/scan.gif' width="520px">
-<img src='imgs/tilt_scan.gif' width="520px">
+
+https://github.com/zju3dv/MVN-AFM/assets/153975701/f2eb1739-1d31-4385-bded-22c803242e4f
+
+
+
+https://github.com/zju3dv/MVN-AFM/assets/153975701/4ce89d52-9b2c-43f5-9528-9d4482664da8
+
+
+
 </p>
 
 This is the model of our tilt sample stage, consisting of a base with a tilt angle and a circular turntable. You can access our **.STEP** design models for both parts [here](stage_models/) and construct this stage by 3D printing. 
@@ -79,6 +86,8 @@ python launch.py --config configs/afm.yaml --gpu ${GPU_NUM} --train dataset.scen
 
 ## Acknowledgements
 Thanks [instant-nsr-pl](https://github.com/bennyguo/instant-nsr-pl) for providing nice implementation of instant neural implicit surface reconstruction.
+
+We used a free 3D model from [sketchfab](https://sketchfab.com/feed) in our animation.
 
 ## Citation
 If you find this code/work useful in your own research, please consider citing the following:
